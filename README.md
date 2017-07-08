@@ -87,5 +87,5 @@ print(x)
 
 8
 ```
-Functions that return values are <b>fruitful<b> functions </br>
-Functions that don't return values are <b> non-fruitful <b> functions
+Functions that return values are ***fruitful*** functions </br>
+Functions that don't return values are ***non-fruitful*** functions
