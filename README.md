@@ -13,6 +13,6 @@ os.system('python 路径/文件名.py')
 ### 3. Conditional statements
 ```python
 if [condition] :
-elif [condition] :
+elif [condition] : #! 如果此处条件满足，将跳过接下来的判断过程
 else [condition] :
 ```
