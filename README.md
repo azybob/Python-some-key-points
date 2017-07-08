@@ -6,6 +6,8 @@
 ```python
 import os
 os.system('python 路径/文件名.py')
+
+os.chdir(“目标目录”)    #! 用于在python运行环境下更改工作目录
 ```
 
 ### 2. 在Python Shell里重复上一条命令，Alt + P 
