@@ -8,3 +8,8 @@ import os</br>
 os.system('python 路径/文件名.py')
 
 ### 在Python Shell里重复上一条命令，Alt + P
+
+### Conditional statements
+
+if [condition] :
+else [condition] :
