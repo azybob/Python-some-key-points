@@ -1,23 +1,23 @@
-#Python some key points 
+# Python some key points 
 
-##07/07/2017 
+## 07/07/2017 
 
-###1. 在Python中运行指定路径下的.py文件时，可运行以下代码： 
+### 1. 在Python中运行指定路径下的.py文件时，可运行以下代码： 
 ```python
 import os
 os.system('python 路径/文件名.py')
 ```
 
-###2. 在Python Shell里重复上一条命令，Alt + P 
+### 2. 在Python Shell里重复上一条命令，Alt + P 
 
-###3. Conditional statements 
-<b> if-elif-else <b>
+### 3. Conditional statements 
+&+emsp ** if-elif-else **
 ```python
 if   [condition] :   #! 如果此处条件满足，将跳过接下来的判断过程
 elif [condition] : #! 如果此处条件满足，将跳过接下来的判断过程
 else [condition] :
 ```
-<b> try-except <b>
+&+emsp ** try-except **
 ```python
 #! 只要try中有一个[action]无法实现就直接进入except，不再执行try中后续指令
 try: #! try sth. if the action can be completed
@@ -30,7 +30,7 @@ try: #! try sth. if the action can be completed
 except: #! otherwise act other way
 [action] 
 ```
-> <b> Example: <b>
+&+emsp ** Example: **
 ```python
 rawstr = input('Enter a number:')
 try:
@@ -42,7 +42,7 @@ if vial > 0:
 else:
     print('Not a number')
 ```
-<b> 另一个很好的范例：<b>
+&+emsp ** 另一个很好的范例：**
 ```python
 score = input("Enter Score: ")
 try: 
@@ -67,16 +67,16 @@ else:
 print(g)
 ```
 
-###4. CMD中 
+### 4. CMD中 
 ```echo %cd% 用于显示当前具体路径```
 
-##08-07-2017
+## 08-07-2017
 
-###5. Building functions 
+### 5. Building functions 
 ```python
 def function_name([var]): #! 定义相当于存储某些指定内容的函数
 ```
-<b> 示例: <b>
+&+emsp ** 示例: **
 ```python
 def addtwo(a,b):
     added = a + b
