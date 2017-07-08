@@ -87,6 +87,7 @@ print(x)
 
 8
 ```
+
 Functions that return values are ***fruitful*** functions
 
 Functions that don't return values are ***non-fruitful*** functions
