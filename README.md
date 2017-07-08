@@ -11,5 +11,6 @@ os.system('python 路径/文件名.py')
 
 ### 3. Conditional statements
 
-if [condition] :
+if [condition] :</br>
+elif [condition] :</br>
 else [condition] :
