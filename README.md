@@ -90,5 +90,4 @@ print(x)
 ```
 
 Functions that return values are ***fruitful*** functions </br> 
-
 Functions that don't return values are ***non-fruitful*** functions
