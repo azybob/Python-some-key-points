@@ -11,13 +11,13 @@ os.system('python 路径/文件名.py')
 ### 2. 在Python Shell里重复上一条命令，Alt + P 
 
 ### 3. Conditional statements 
-&+emsp; ** if-elif-else **
+> ** if-elif-else **
 ```python
 if   [condition] :   #! 如果此处条件满足，将跳过接下来的判断过程
 elif [condition] : #! 如果此处条件满足，将跳过接下来的判断过程
 else [condition] :
 ```
-&+emsp; ** try-except **
+> ** try-except **
 ```python
 #! 只要try中有一个[action]无法实现就直接进入except，不再执行try中后续指令
 try: #! try sth. if the action can be completed
@@ -30,7 +30,7 @@ try: #! try sth. if the action can be completed
 except: #! otherwise act other way
 [action] 
 ```
-&+emsp; ** Example: **
+> ** Example: **
 ```python
 rawstr = input('Enter a number:')
 try:
@@ -42,7 +42,7 @@ if vial > 0:
 else:
     print('Not a number')
 ```
-&+emsp; ** 另一个很好的范例：**
+> ** 另一个很好的范例：**
 ```python
 score = input("Enter Score: ")
 try: 
@@ -76,7 +76,7 @@ print(g)
 ```python
 def function_name([var]): #! 定义相当于存储某些指定内容的函数
 ```
-&+emsp; ** 示例: **
+> ** 示例: **
 ```python
 def addtwo(a,b):
     added = a + b
