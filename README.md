@@ -198,3 +198,23 @@ Before 0 0
 6 154 15
 After 6 154 25.666666666666668
 ```
+```python
+#! Search
+found = False
+print('Before', found)
+for value in [9, 41, 12, 3, 74, 15]:
+    if value == 3:
+        found = True
+        print(found, value)
+        break
+    print(found, value)
+print('After', found)
+```
+```
+Before False
+False 9
+False 41
+False 12
+True 3
+After True
+```
