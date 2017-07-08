@@ -1,16 +1,16 @@
 # Python some key points #
 
-## 07/07/2017
+## 07/07/2017 ##
 
-### 1. 在Python中运行指定路径下的.py文件时，可运行以下代码：
+### 1. 在Python中运行指定路径下的.py文件时，可运行以下代码： ###
 ```python
 import os
 os.system('python 路径/文件名.py')
 ```
 
-### 2. 在Python Shell里重复上一条命令，Alt + P
+### 2. 在Python Shell里重复上一条命令，Alt + P ###
 
-### 3. Conditional statements
+### 3. Conditional statements ###
 > <b> if-elif-else <b>
 ```python
 if   [condition] :   #! 如果此处条件满足，将跳过接下来的判断过程
@@ -67,12 +67,12 @@ else:
 print(g)
 ```
 
-### 4. CMD中
+### 4. CMD中 ###
 ```echo %cd% 用于显示当前具体路径```
 
-## 08-07-2017
+## 08-07-2017 ##
 
-### 5. Building functions
+### 5. Building functions ###
 ```python
 def function_name([var]): #! 定义相当于存储某些指定内容的函数
 ```
