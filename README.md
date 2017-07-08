@@ -30,7 +30,7 @@ try: #! try sth. if the action can be completed
 except: #! otherwise act other way
 [action] 
 ```
-> <b> Eample: <b>
+> <b> Example: <b>
 ```python
 rawstr = input('Enter a number:')
 try:
@@ -42,5 +42,30 @@ if vial > 0:
 else:
     print('Not a number')
 ```
+> <b> 另一个很好的范例：<b>
+```python
+score = input("Enter Score: ")
+try: 
+    s = float(score)    #! 尝试将字符串score转化为float并赋值于变量s
+except: 
+    print("Error! Please enter a numeric input!")
+    quit()              #! 如果无法将string转换为float则输出错误提示并退出此次程序执行
+                        #! 如果转换成功，则开始执行接下来的if-elif-else语句
+if s < 0.0 or s > 1.0:
+    print("Error! Please enter a numeric input between 0.0 and 1.0")
+    quit()              #! 如果无用户输入数值超过给定的范围则输出错误提示并退出此次程序执行
+elif s >= 0.9:
+    g = 'A'
+elif s >= 0.8:
+    g = 'B'
+elif s >= 0.7:
+    g = 'C'
+elif s >= 0.6:
+    g = 'D'
+else:
+    g = 'F'
+print(g)
+```
+
 ### 4. CMD中
 ```echo %cd% 用于显示当前具体路径```
