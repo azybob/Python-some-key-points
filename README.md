@@ -21,14 +21,14 @@ else [condition] :
 ```python
 #! 只要try中有一个[action]无法实现就直接进入except，不再执行try中后续指令
 try: #! try sth. if the action can be completed
-[action 1] 
-[action 2]
-[action 3] 
-.
-.
-.
+    [action 1] 
+    [action 2]
+    [action 3] 
+        .
+        .
+        .
 except: #! otherwise act other way
-[action] 
+    [action] 
 ```
 > **Example:**
 ```python
@@ -42,7 +42,7 @@ if vial > 0:
 else:
     print('Not a number')
 ```
-> **另一个很好的范例：**
+> **另一个很好的范例:**
 ```python
 score = input("Enter Score: ")
 try: 
@@ -91,3 +91,29 @@ print(x)
 
 Functions that return values are ***fruitful*** functions </br> 
 Functions that don't return values are ***non-fruitful*** functions
+
+### 6. Loop and Iteration
+> **while, continue and break**
+```python
+while [condition]:
+    [action]
+```
+> **示例:**
+```python
+while True:
+    line = input('>')
+    if line[0] == '#':
+        continue        #! 使程序跳回到第一行while上重新开始
+    if line == 'done':
+        break           #! 直接跳出while循环，执行print('Done!')
+    print(line)
+print('Done!')
+
+> hello there
+hello there
+> # don't print this
+> print this
+print this
+> done
+Done!
+```
