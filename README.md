@@ -72,6 +72,7 @@ print(g)
 
 ## 08-07-2017
 
+### 5. Building functions
 ```python
 def function_name([var]): #! 定义相当于存储某些指定内容的函数
 ```
@@ -86,3 +87,5 @@ print(x)
 
 8
 ```
+Functions that return values are <b>fruitful<b> functions </br>
+Functions that don't return values are <b> non-fruitful <b> functions
