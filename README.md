@@ -73,6 +73,16 @@ print(g)
 ## 08-07-2017
 
 ```python
-def function_name(): #! 定义相当于存储某些指定内容的函数
+def function_name([var]): #! 定义相当于存储某些指定内容的函数
 ```
+> <b> 示例: <b>
+```python
+def addtwo(a,b):
+    added = a + b
+    return added
+    
+x = adddtwo(3, 5)
+print(x)
 
+8
+```
