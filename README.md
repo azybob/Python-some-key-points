@@ -121,13 +121,15 @@ Done!
 > **for, 示例:**
 ```python
 #! 1. 判断和寻找最大值
-largest_so_far = -1
-print('Before', largest_so_far)
+largest_so_far = None
+print('Before')
 for the_num in [9, 41, 12, 3, 74, 15]:
-    if the_num > largest_so_far:
+    if largest_so_far is None:
+       largest_so_far = the_num
+    elif the_num > largest_so_far:
         largest_so_far = the_num
     print(largest_so_far, the_num)
-print('After', lagest_so_far)
+print('After', largest_so_far)
 ```
 ```
 Before -1
