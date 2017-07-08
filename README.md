@@ -42,3 +42,5 @@ if vial > 0:
 else:
     print('Not a number')
 ```
+### 4. CMD中
+```echo %cd% 用于显示当前具体路径```
