@@ -120,7 +120,7 @@ Done!
 ```
 > **for, 示例:**
 ```python
-#! 判断和寻找最大值
+#! 1. 判断和寻找最大值
 largest_so_far = -1
 print('Before', largest_so_far)
 for the_num in [9, 41, 12, 3, 74, 15]:
@@ -138,4 +138,23 @@ Before -1
 74 74
 74 15
 After 74
+```
+```python
+#! 2. 用循环数数
+zork = 0
+print('Before', zork)
+for thing in [9, 41, 12, 3, 74, 15]:
+    zork = zork + 1
+    print(zork, thing)
+print('After', zork)
+```
+```
+Before 0
+1 9
+2 41
+3 12
+4 3
+5 74
+6 15
+After 6
 ```
