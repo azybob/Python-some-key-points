@@ -127,4 +127,13 @@ for the_num in [9, 41, 12, 3, 74, 15]:
         largest_so_far = the_num
     print(largest_so_far, the_num)
 print('After', lagest_so_far)
+
+Before -1
+9 9
+41 41
+41 12
+41 3
+74 74
+74 15
+After 74
 ```
