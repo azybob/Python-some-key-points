@@ -113,8 +113,7 @@ print('Done!')
 > hello there
 hello there
 > # don't print this    #! 在'>'后输入的'#'使此行输入不被print出来
-``` 
-```> print this
+> print this
 print this
 > done
 Done!
