@@ -121,7 +121,7 @@ Done!
 > **for, 示例:**
 ```python
 #! 1. 判断和寻找最大值
-largest_so_far = None
+largest_so_far = None                 #! None作为一个flag number很好用，初始值
 print('Before')
 for the_num in [9, 41, 12, 3, 74, 15]:
     if largest_so_far is None:
