@@ -73,6 +73,11 @@ print(g)
 ***echo %cd%*** 用于显示当前具体路径</br>
 执行一个死循环程序，***ctrl+c*** 就会终止程序执行，但是idle不会退出
 
+在CMD中执行.py文件使用以下命令
+```python
+exec(open("./filename").read())
+```
+
 ## 08-07-2017
 
 ### 5. Building functions 
