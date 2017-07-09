@@ -7,7 +7,7 @@
 import os
 os.system('python 路径/文件名.py')
 
-os.chdir(“目标目录”)    #! 用于在python运行环境下更改工作目录
+os.chdir(“目标目录”)    # 用于在python运行环境下更改工作目录
 ```
 
 ### 2. 在Python Shell里重复上一条命令，Alt + P 
@@ -15,14 +15,14 @@ os.chdir(“目标目录”)    #! 用于在python运行环境下更改工作�
 ### 3. Conditional statements 
 > **if-elif-else**
 ```python
-if   [condition] :   #! 如果此处条件满足，将跳过接下来的判断过程
-elif [condition] : #! 如果此处条件满足，将跳过接下来的判断过程
+if   [condition] :   # 如果此处条件满足，将跳过接下来的判断过程
+elif [condition] : # 如果此处条件满足，将跳过接下来的判断过程
 else [condition] :
 ```
 > **try-except**
 ```python
-#! 只要try中有一个[action]无法实现就直接进入except，不再执行try中后续指令
-try: #! try sth. if the action can be completed
+# 只要try中有一个[action]无法实现就直接进入except，不再执行try中后续指令
+try: # try sth. if the action can be completed
     [action 1] 
     [action 2]
     [action 3] 
@@ -48,14 +48,14 @@ else:
 ```python
 score = input("Enter Score: ")
 try: 
-    s = float(score)    #! 尝试将字符串score转化为float并赋值于变量s
+    s = float(score)    # 尝试将字符串score转化为float并赋值于变量s
 except: 
     print("Error! Please enter a numeric input!")
-    quit()              #! 如果无法将string转换为float则输出错误提示并退出此次程序执行
-                        #! 如果转换成功，则开始执行接下来的if-elif-else语句
+    quit()              # 如果无法将string转换为float则输出错误提示并退出此次程序执行
+                        # 如果转换成功，则开始执行接下来的if-elif-else语句
 if s < 0.0 or s > 1.0:
     print("Error! Please enter a numeric input between 0.0 and 1.0")
-    quit()              #! 如果无用户输入数值超过给定的范围则输出错误提示并退出此次程序执行
+    quit()              # 如果无用户输入数值超过给定的范围则输出错误提示并退出此次程序执行
 elif s >= 0.9:
     g = 'A'
 elif s >= 0.8:
@@ -82,7 +82,7 @@ exec(open("./filename").read())
 
 ### 5. Building functions 
 ```python
-def function_name([var]): #! 定义相当于存储某些指定内容的函数
+def function_name([var]): # 定义相当于存储某些指定内容的函数
 ```
 > **示例:**
 ```python
@@ -110,16 +110,16 @@ while [condition]:
 while True:
     line = input('>')
     if line[0] == '#':
-        continue        #! 使程序跳回到第一行while上重新开始
+        continue        # 使程序跳回到第一行while上重新开始
     if line == 'done':
-        break           #! 直接跳出while循环，执行print('Done!')
+        break           # 直接跳出while循环，执行print('Done!')
     print(line)
 print('Done!')
 ```
 ```
 > hello there
 hello there
-> # don't print this    #! 在'>'后输入的'#'使此行输入不被print出来
+> # don't print this    # 在'>'后输入的'#'使此行输入不被print出来
 > print this
 print this
 > done
@@ -127,11 +127,11 @@ Done!
 ```
 > **for, 示例:**
 ```python
-#! 1. 判断和寻找最大值
-largest_so_far = None                 #! None作为一个flag number很好用，初始值
+# 1. 判断和寻找最大值
+largest_so_far = None                 # None作为一个flag number很好用，初始值
 print('Before')
 for the_num in [9, 41, 12, 3, 74, 15]:
-    if largest_so_far is None:        #! is的强度比 == 强
+    if largest_so_far is None:        # is的强度比 == 强
        largest_so_far = the_num
     elif the_num > largest_so_far:
         largest_so_far = the_num
@@ -149,7 +149,7 @@ Before -1
 After 74
 ```
 ```python
-#! 2. 用循环数数
+# 2. 用循环数数
 zork = 0
 print('Before', zork)
 for thing in [9, 41, 12, 3, 74, 15]:
@@ -168,7 +168,7 @@ Before 0
 After 6
 ```
 ```python
-#! 3. 用循环累加
+# 3. 用循环累加
 zork = 0
 print('Before', zork)
 for thing in [9, 41, 12, 3, 74, 15]:
@@ -187,7 +187,7 @@ Before 0
 After 154
 ```
 ```python
-#! 4. 用循环求平均值
+# 4. 用循环求平均值
 count = 0
 sum = 0
 print('Before', count, sum)
@@ -208,7 +208,7 @@ Before 0 0
 After 6 154 25.666666666666668
 ```
 ```python
-#! Search
+# Search
 found = False
 print('Before', found)
 for value in [9, 41, 12, 3, 74, 15]:
